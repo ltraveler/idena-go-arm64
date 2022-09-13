@@ -1,5 +1,6 @@
 # idena-go-arm64 (v0.30.0)
-#### 🤖📲 AArch64 aka ARM64 compiled build of idena-go client
+#### 🤖📲 AArch64 aka ARM64 compiled build of idena-go client.
+Put simply, the binary that you would need to run IDENA node on your Android phone.
 
 ## 🏗️ Some preparation
 You must have an ARM64 virtual machine (e.g. QEMU) or real device (e.g. Android device)
