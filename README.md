@@ -17,7 +17,7 @@ mv go /usr/local
 ```
 3. #### Installing required gcc library
 ```
-apt install gcc -y
+apt install gcc wget git -y
 ```
 
 4. #### Adding GO required environment variables
