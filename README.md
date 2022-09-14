@@ -25,13 +25,13 @@ mv go /usr/local
 4. #### Adding GO required environment variables
 ```
 cd ~/
-tee -a .profile <<EOF
+tee -a .bashrc <<EOF
 #GO required environment variables
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 EOF
-source ~/.profile
+source ~/.bashrc
 
 ```
 
