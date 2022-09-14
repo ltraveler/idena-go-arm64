@@ -21,12 +21,8 @@ wget https://go.dev/dl/go1.18.6.linux-arm64.tar.gz
 tar -xvf go1.18.6.linux-arm64.tar.gz
 mv go /usr/local
 ```
-4. #### Installing required packages
-```
-apt install gcc wget git -y
-```
 
-5. #### Adding GO required environment variables
+4. #### Adding GO required environment variables
 ```
 cd ~/
 tee -a .profile <<EOF
@@ -37,24 +33,24 @@ PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 EOF
 ```
 
-6. #### Clone latest idena-go repository
+5. #### Clone latest idena-go repository
 ```
 wget https://github.com/idena-network/idena-go/archive/refs/tags/v0.30.0.tar.gz
 tar -xzf v0.30.0.tar.gz
 cd idena-go-0.30.0
 ```
 
-7. #### Get the QUIC implementation (v0.26.0)
+6. #### Get the QUIC implementation (v0.26.0)
 ```
 go get github.com/lucas-clemente/quic-go@v0.26.0
 ```
 
-8. #### Compile arm64 idena-go binary
+7. #### Compile arm64 idena-go binary
 ```
 go build -ldflags "-X main.version=0.30.0"
 ```
 
-9. #### You can find the compiled ARM64 binary file in the same folder with the name `idena-go`
+8. #### You can find the compiled ARM64 binary file in the same folder with the name `idena-go`
 
 ### 🙏 Special Thanks
 to Rioda for his [rasberry-pi](https://github.com/rioda-org/idena/tree/main/raspberry_pi) script
