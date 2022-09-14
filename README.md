@@ -31,6 +31,8 @@ GOROOT=/usr/local/go
 GOPATH=$HOME/go
 PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 EOF
+source ~/.bashrc
+
 ```
 
 5. #### Clone latest idena-go repository
