@@ -1,4 +1,4 @@
-# idena-go-arm64 (v0.30.0)
+# idena-go-arm64 (v0.30.1)
 #### 🤖📲 AArch64 aka ARM64 compiled build of idena-go client.
 Put simply, the binary that you would need to run IDENA node on your Android phone.
 
@@ -15,10 +15,10 @@ You must have an ARM64 virtual machine (e.g. QEMU) or real device (e.g. Android 
 apt install gcc wget git -y
 ```
 
-3. #### Download and install Golang v1.18.6<br>
+3. #### Download and install Golang v1.17.13<br>
 ```
-wget https://go.dev/dl/go1.18.6.linux-arm64.tar.gz
-tar -xvf go1.18.6.linux-arm64.tar.gz
+wget https://go.dev/dl/go1.17.13.linux-arm64.tar.gz
+tar -xvf go1.17.13.linux-arm64.tar.gz
 mv go /usr/local
 ```
 
@@ -37,22 +37,17 @@ source ~/.profile
 
 5. #### Clone latest idena-go repository
 ```
-wget https://github.com/idena-network/idena-go/archive/refs/tags/v0.30.0.tar.gz
-tar -xzf v0.30.0.tar.gz
-cd idena-go-0.30.0
+wget https://github.com/idena-network/idena-go/archive/refs/tags/v0.30.1.tar.gz
+tar -xzf v0.30.1.tar.gz
+cd idena-go-0.30.1
 ```
 
-6. #### Get the QUIC implementation (v0.26.0)
+6. #### Compile arm64 idena-go binary
 ```
-go get github.com/lucas-clemente/quic-go@v0.26.0
-```
-
-7. #### Compile arm64 idena-go binary
-```
-go build -ldflags "-X main.version=0.30.0"
+go build -ldflags "-X main.version=0.30.1"
 ```
 
-8. #### You can find the compiled ARM64 binary file in the same folder with the name `idena-go`
+7. #### You can find the compiled ARM64 binary file in the same folder with the name `idena-go`
 
 ### 🙏 Special Thanks
 to Rioda for his [rasberry-pi](https://github.com/rioda-org/idena/tree/main/raspberry_pi) script
