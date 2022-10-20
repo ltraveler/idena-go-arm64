@@ -2,10 +2,9 @@
 #### 🤖📲 AArch64 aka ARM64 compiled build of idena-go client.
 Put simply, the binary that you would need to run IDENA node on your Android phone.
 
-## 🏗️ Some preparation
+## 🏗️ User guide
 You must have an ARM64 virtual machine (e.g. QEMU) or real device (e.g. Android device)
-* To install Ubuntu on Android you can use [Andronix.app](https://andronix.app/)
-* If you want to emulate ARM64 architecture on your computer you can use [QEMU](https://www.qemu.org)
+* [https://medium.com/@idna.project/b9229c010440](https://medium.com/@idna.project/b9229c010440)
 
 ## 👨‍💻 In case if you want to compile an ARM64 idena-go build by yourself
 1. #### Download and install latest *Ubuntu 18.x LTS* [release](https://cdimage.ubuntu.com/releases/18.04/release/) version for **ARM64** <br> E.g. https://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.6-server-arm64.iso <br>
