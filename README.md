@@ -3,7 +3,7 @@
 Put simply, the binary that you would need to run IDENA node on your Android phone.
 
 ## 🏗️ User guide
-You must have an ARM64 virtual machine (e.g. QEMU) or real device (e.g. Android device)<br>
+You must have an ARM64 virtual machine (e.g. QEMU) or real device (e.g. Android device)<br><br>
 🇬🇧 [https://medium.com/@idna.project/b9229c010440](https://medium.com/@idna.project/b9229c010440)<br>
 🇷🇺 [https://teletype.in/@idenanetwork/idena-armer](https://teletype.in/@idenanetwork/idena-armer)
 
