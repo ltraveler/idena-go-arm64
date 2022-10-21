@@ -3,8 +3,8 @@
 Put simply, the binary that you would need to run IDENA node on your Android phone.
 
 ## 🏗️ User guide
-You must have an ARM64 virtual machine (e.g. QEMU) or real device (e.g. Android device)
-🇬🇧 [https://medium.com/@idna.project/b9229c010440](https://medium.com/@idna.project/b9229c010440)
+You must have an ARM64 virtual machine (e.g. QEMU) or real device (e.g. Android device)<br>
+🇬🇧 [https://medium.com/@idna.project/b9229c010440](https://medium.com/@idna.project/b9229c010440)<br>
 🇷🇺 [https://teletype.in/@idenanetwork/idena-armer](https://teletype.in/@idenanetwork/idena-armer)
 
 ## 👨‍💻 In case if you want to compile an ARM64 idena-go build by yourself
