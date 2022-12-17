@@ -1,11 +1,11 @@
-# idena-go-arm64 (v0.30.2)
+# idena-go-arm64 (v0.30.3)
 #### 🤖📲 AArch64 aka ARM64 compiled build of idena-go client.
 Put simply, the binary that you would need to run IDENA node on your Android phone.
 
-## 🏗️ Some preparation
-You must have an ARM64 virtual machine (e.g. QEMU) or real device (e.g. Android device)
-* To install Ubuntu on Android you can use [Andronix.app](https://andronix.app/)
-* If you want to emulate ARM64 architecture on your computer you can use [QEMU](https://www.qemu.org)
+## 🏗️ User guide
+You must have an ARM64 virtual machine (e.g. QEMU) or real device (e.g. Android device)<br><br>
+🇬🇧 [https://medium.com/@idna.project/b9229c010440](https://medium.com/@idna.project/b9229c010440)<br>
+🇷🇺 [https://teletype.in/@idenanetwork/idena-armer](https://teletype.in/@idenanetwork/idena-armer)
 
 ## 👨‍💻 In case if you want to compile an ARM64 idena-go build by yourself
 1. #### Download and install latest *Ubuntu 18.x LTS* [release](https://cdimage.ubuntu.com/releases/18.04/release/) version for **ARM64** <br> E.g. https://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.6-server-arm64.iso <br>
@@ -37,14 +37,14 @@ source ~/.profile
 
 5. #### Clone latest idena-go repository
 ```
-wget https://github.com/idena-network/idena-go/archive/refs/tags/v0.30.2.tar.gz
-tar -xzf v0.30.2.tar.gz
-cd idena-go-0.30.2
+wget https://github.com/idena-network/idena-go/archive/refs/tags/v0.30.3.tar.gz
+tar -xzf v0.30.3.tar.gz
+cd idena-go-0.30.3
 ```
 
 6. #### Compile arm64 idena-go binary
 ```
-go build -ldflags "-X main.version=0.30.2"
+go build -ldflags "-X main.version=0.30.3"
 ```
 
 7. #### You can find the compiled ARM64 binary file in the same folder with the name `idena-go`
