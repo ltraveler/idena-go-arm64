@@ -1,4 +1,4 @@
-# idena-go-arm64 (v1.0.0)
+# idena-go-arm64 (v1.0.1)
 #### 🤖📲 AArch64 aka ARM64 compiled build of idena-go client.
 Put simply, the binary that you would need to run IDENA node on your Android phone.
 
@@ -38,13 +38,13 @@ source ~/.profile
 5. #### Clone latest idena-go repository
 ```
 wget https://github.com/idena-network/idena-go/archive/refs/tags/v0.31.1.tar.gz
-tar -xzf v1.0.0.tar.gz
-cd idena-go-1.0.0
+tar -xzf v1.0.1.tar.gz
+cd idena-go-1.0.1
 ```
 
 6. #### Compile arm64 idena-go binary
 ```
-go build -ldflags "-X main.version=1.0.0"
+go build -ldflags "-X main.version=1.0.1"
 ```
 
 7. #### You can find the compiled ARM64 binary file in the same folder with the name `idena-go`
