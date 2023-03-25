@@ -37,7 +37,7 @@ source ~/.profile
 
 5. #### Clone latest idena-go repository
 ```
-wget https://github.com/idena-network/idena-go/archive/refs/tags/v1.0.2-rc3.tar.gz
+wget https://github.com/idena-network/idena-go/archive/refs/tags/v1.0.2.tar.gz
 tar -xzf v1.0.2.tar.gz
 cd idena-go-v1.0.2
 ```
